@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+/* no wider than 80 chars onscreen :P */
+h1, a, p {
+    font-size: 3.4em;
+}
+
+h1 > span {
+    color: green;
+}
+
+p > span {
+    color: grey;
+}

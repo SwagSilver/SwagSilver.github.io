@@ -2,13 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>{{ page.title }}| SwagSilver</title>
-		<link rel="stylesheet" href="res/css/{{ page.title }}.css">
-		<script src="res/js/{{ page.title }}.js"></script>
+		<title>{{ page.title }} | SwagSilver</title>
+		{% if page.stylesheet %}
+			<link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
+		{% endif %}
+		{% if page.script %}
+			<script src="{{ page.script | relative_url }}" async defer></script>
+		{% endif %}
 	</head>
 	<body>
-		<main>
-			{{ content }}
-		</main>
+		{{ content }}
 	</body>
 </html>

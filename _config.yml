@@ -1,0 +1,6 @@
+timezone: Etc/UTC
+
+collections:
+    posts:
+        output: true
+        permalink: /blog/:slug
