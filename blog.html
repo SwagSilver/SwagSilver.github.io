@@ -1,0 +1,10 @@
+---
+permalink: /blog/
+layout: default
+stylesheet: res/css/blog.scss
+---
+<h1><span>~/blog $ </span>ls</h1>
+
+{% for post in site.posts %}
+    <a href="{{ post.url }}">{{ post.slug }}.md</a>
+{% endfor %}
