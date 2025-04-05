@@ -5,6 +5,11 @@
     color: white;
 }
 
+/* no wider than 80 chars onscreen :P */
+h1, a, p {
+    font-size: 3.4em;
+}
+
 .post-title {
     color: green;
 }
