@@ -4,6 +4,10 @@
     color: white;
 }
 
+a {
+    font-size: 3.4em;
+}
+
 h1 > span {
     color: green;
 }
