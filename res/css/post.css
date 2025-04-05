@@ -1,15 +1,13 @@
-* {
+pre > * {
     margin: 0;
     background-color: black;
     text-align: center;
     color: white;
-}
 
-/* no wider than 80 chars onscreen :P */
-h1, a, p {
+    /* no wider than 80 chars onscreen :P */
     font-size: 3.4em;
 }
 
-.post-title {
+pre > .post-title {
     color: green;
 }
