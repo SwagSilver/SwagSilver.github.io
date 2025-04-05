@@ -21,3 +21,7 @@ p > span {
 pre > .post-title {
     color: green;
 }
+
+code {
+    text-align: left;
+}
